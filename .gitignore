@@ -1,0 +1,26 @@
+# Node / React (Frontend)
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+
+# Python / FastAPI (Backend)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Environment Variables & Secrets
+.env
+*.env
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
