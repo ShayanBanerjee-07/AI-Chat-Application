@@ -26,7 +26,7 @@ function App() {
     setLoading(true);
 
     try {
-      const response = await fetch('https://ai-chat-application-backend-aruf.onrender.com', {
+      const response = await fetch('https://ai-chat-application-backend-aruf.onrender.com/api/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
